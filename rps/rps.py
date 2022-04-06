@@ -14,8 +14,6 @@ def play():
   
   print("You lose!")
 
-  
-
 def youWin(user, computer):
   if (user == 's' and computer == 'p') or (user == 'p' and computer == 's') or (user == 'r' and computer == 's'):
     return True
